@@ -1,0 +1,9 @@
+REOMP:::  0:  =============================
+REOMP:::  0:  ReOMP mode   : REOMP_MODE=1
+REOMP:::  0:  ReOMP method : REOMP_METHOD=0
+REOMP:::  0:  ReOMP profile level: REOMP_PROFILE is not defined
+REOMP:::  0:  ReOMP dir    : REOMP_DIR=.
+REOMP:::  0:  =============================
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 49529 ON bwmpc149 CANCELLED AT 2024-01-02T14:37:35 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 49529.0 ON bwmpc149 CANCELLED AT 2024-01-02T14:37:35 DUE TO TIME LIMIT ***

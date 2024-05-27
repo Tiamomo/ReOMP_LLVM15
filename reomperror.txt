@@ -1,0 +1,252 @@
+In file included from rempi_io_thread.h:33,
+                 from rempi_recorder.h:50,
+                 from rempi_re.h:37,
+                 from rempi_pmpi.cpp:32:
+rempi_encoder.h: In constructor 'rempi_encoder::rempi_encoder(int, std::string)':
+rempi_encoder.h:240:12: warning: 'rempi_encoder::tmp_fd_next_clock' will be initialized after [-Wreorder]
+  240 |     size_t tmp_fd_next_clock; /*Temporal variable for set_fd_clock_state*/
+      |            ^~~~~~~~~~~~~~~~~
+rempi_encoder.h:216:7: warning:   'int rempi_encoder::file_closed' [-Wreorder]
+  216 |   int file_closed;
+      |       ^~~~~~~~~~~
+rempi_encoder.h:244:2: warning:   when initialized here [-Wreorder]
+  244 |  rempi_encoder(int mode, string record_path)
+      |  ^~~~~~~~~~~~~
+In file included from rempi_pmpi.cpp:32:
+rempi_re.h: In destructor 'rempi_re::~rempi_re()':
+rempi_re.h:107:14: warning: deleting object of polymorphic class type 'rempi_recorder' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+  107 |       delete recorder;
+      |              ^~~~~~~~
+rempi_pmpi.cpp: In function 'int MPI_Finalize()':
+rempi_pmpi.cpp:1785:10: warning: deleting object of polymorphic class type 'rempi_re' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+ 1785 |   delete rempi_record_replay;
+      |          ^~~~~~~~~~~~~~~~~~~
+In file included from rempi_recorder.h:49,
+                 from rempi_re.h:37,
+                 from rempi_pmpi.cpp:32:
+rempi_event_list.h: In instantiation of 'rempi_event_list<T>::~rempi_event_list() [with T = rempi_event*]':
+rempi_recorder.h:131:14:   required from here
+rempi_event_list.h:94:7: warning: deleting object of polymorphic class type 'rempi_event' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+   94 |       delete event;
+      |       ^~~~~~
+rempi_event_list.h:104:7: warning: deleting object of polymorphic class type 'rempi_event' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+  104 |       delete event;
+      |       ^~~~~~
+In file included from rempi_event_list.h:32,
+                 from rempi_recorder.h:49,
+                 from rempi_re.h:37,
+                 from rempi_pmpi.cpp:32:
+rempi_spsc_queue.h: In member function 'size_t rempi_spsc_queue<T>::rough_size() [with T = rempi_event*]':
+rempi_spsc_queue.h:92:17: warning: nonnull argument 'this' compared to NULL [-Wnonnull-compare]
+   92 |     while (this == NULL) {
+      |                 ^
+rempi_err.cpp: In function 'void rempi_err(const char*, ...)':
+rempi_err.cpp:102:11: warning: unused variable 'argp' [-Wunused-variable]
+  102 |   va_list argp;
+      |           ^~~~
+rempi_err.cpp: In function 'void rempi_dbgi(int, const char*, ...)':
+rempi_err.cpp:160:11: warning: unused variable 'argp' [-Wunused-variable]
+  160 |   va_list argp;
+      |           ^~~~
+rempi_err.cpp: In function 'size_t rempi_btrace_hash()':
+rempi_err.cpp:249:7: warning: unused variable 'j' [-Wunused-variable]
+  249 |   int j, nptrs;
+      |       ^
+rempi_err.cpp: In function 'char* rempi_err_mpi_msg(int)':
+rempi_err.cpp:307:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  307 |     return "Successful return code";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:309:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  309 |     return "Invalid buffer pointer";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:311:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  311 |     return "Invalid count argument";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:313:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  313 |     return "Invalid datatype argument";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:315:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  315 |     return "Invalid tag argument";
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:317:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  317 |     return "Invalid communicator";
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:319:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  319 |     return "Invalid rank";
+      |            ^~~~~~~~~~~~~~
+rempi_err.cpp:321:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  321 |     return "Invalid root";
+      |            ^~~~~~~~~~~~~~
+rempi_err.cpp:323:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  323 |     return "Null group passed to function";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:325:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  325 |     return "Invalid operation";
+      |            ^~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:327:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  327 |     return "Invalid topology";
+      |            ^~~~~~~~~~~~~~~~~~
+rempi_err.cpp:329:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  329 |     return "Illegal dimension argument";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:331:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  331 |     return "Invalid argument";
+      |            ^~~~~~~~~~~~~~~~~~
+rempi_err.cpp:333:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  333 |     return "Unknown error";
+      |            ^~~~~~~~~~~~~~~
+rempi_err.cpp:335:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  335 |     return "message truncated on receive";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:337:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  337 |     return "Other error; use Error_string";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:339:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  339 |     return "internal error code";
+      |            ^~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:341:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  341 |     return "Look in status for error value";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:343:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  343 |     return "Pending request";
+      |            ^~~~~~~~~~~~~~~~~
+rempi_err.cpp:345:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  345 |     return "illegal mpi_request handle";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:347:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  347 |     return "Last error code -- always at end";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rempi_err.cpp:349:12: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  349 |     return "Unknown error";
+      |            ^~~~~~~~~~~~~~~
+rempi_err.cpp: In function 'void rempi_set_header_message(const char*, const char*, __va_list_tag*)':
+rempi_err.cpp:69:29: warning: '%s' directive writing up to 255 bytes into a region of size 121 [-Wformat-overflow=]
+   69 |   sprintf(header, "REMPI:%s:%s:%3d: ", label, hostname, rempi_my_rank);
+      |                             ^~                ~~~~~~~~
+In file included from /usr/include/stdio.h:867,
+                 from rempi_err.cpp:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:36:34: note: '__builtin___sprintf_chk' output 14 or more bytes (assuming 269) into a destination of size 128
+   36 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   37 |       __bos (__s), __fmt, __va_arg_pack ());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from rempi_io_thread.h:33,
+                 from rempi_recorder.h:50,
+                 from rempi_re.h:37,
+                 from rempi_re.cpp:32:
+rempi_encoder.h: In constructor 'rempi_encoder::rempi_encoder(int, std::string)':
+rempi_encoder.h:240:12: warning: 'rempi_encoder::tmp_fd_next_clock' will be initialized after [-Wreorder]
+  240 |     size_t tmp_fd_next_clock; /*Temporal variable for set_fd_clock_state*/
+      |            ^~~~~~~~~~~~~~~~~
+rempi_encoder.h:216:7: warning:   'int rempi_encoder::file_closed' [-Wreorder]
+  216 |   int file_closed;
+      |       ^~~~~~~~~~~
+rempi_encoder.h:244:2: warning:   when initialized here [-Wreorder]
+  244 |  rempi_encoder(int mode, string record_path)
+      |  ^~~~~~~~~~~~~
+In file included from rempi_re.cpp:32:
+rempi_re.h: In destructor 'rempi_re::~rempi_re()':
+rempi_re.h:107:14: warning: deleting object of polymorphic class type 'rempi_recorder' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+  107 |       delete recorder;
+      |              ^~~~~~~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_init(int*, char***, int)':
+rempi_re.cpp:81:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   81 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_init_thread(int*, char***, int, int*, int)':
+rempi_re.cpp:101:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  101 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_isend(const void*, int, MPI_Datatype, int, int, MPI_Comm, ompi_request_t**, int)':
+rempi_re.cpp:183:7: warning: unused variable 'ret' [-Wunused-variable]
+  183 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_irecv(void*, int, MPI_Datatype, int, int, MPI_Comm, ompi_request_t**)':
+rempi_re.cpp:210:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  210 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_test(ompi_request_t**, int*, MPI_Status*)':
+rempi_re.cpp:254:7: warning: unused variable 'ret' [-Wunused-variable]
+  254 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_testsome(int, ompi_request_t**, int*, int*, MPI_Status*)':
+rempi_re.cpp:300:7: warning: unused variable 'ret' [-Wunused-variable]
+  300 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_testall(int, ompi_request_t**, int*, MPI_Status*)':
+rempi_re.cpp:321:7: warning: unused variable 'ret' [-Wunused-variable]
+  321 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_wait(ompi_request_t**, MPI_Status*)':
+rempi_re.cpp:347:7: warning: unused variable 'ret' [-Wunused-variable]
+  347 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_waitany(int, ompi_request_t**, int*, MPI_Status*)':
+rempi_re.cpp:368:7: warning: unused variable 'ret' [-Wunused-variable]
+  368 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_waitsome(int, ompi_request_t**, int*, int*, MPI_Status*)':
+rempi_re.cpp:388:7: warning: unused variable 'ret' [-Wunused-variable]
+  388 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_waitall(int, ompi_request_t**, MPI_Status*)':
+rempi_re.cpp:409:7: warning: unused variable 'ret' [-Wunused-variable]
+  409 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_probe(int, int, MPI_Comm, MPI_Status*)':
+rempi_re.cpp:429:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  429 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_iprobe(int, int, MPI_Comm, int*, MPI_Status*)':
+rempi_re.cpp:447:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  447 |   int ret;
+      |       ^~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_cancel(ompi_request_t**)':
+rempi_re.cpp:466:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  466 |   int ret;
+      |       ^~~
+rempi_re.cpp:467:7: warning: unused variable 'requested_source' [-Wunused-variable]
+  467 |   int requested_source, requested_tag;
+      |       ^~~~~~~~~~~~~~~~
+rempi_re.cpp:467:25: warning: unused variable 'requested_tag' [-Wunused-variable]
+  467 |   int requested_source, requested_tag;
+      |                         ^~~~~~~~~~~~~
+rempi_re.cpp:468:12: warning: unused variable 'requested_comm' [-Wunused-variable]
+  468 |   MPI_Comm requested_comm;
+      |            ^~~~~~~~~~~~~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_request_free(ompi_request_t**)':
+rempi_re.cpp:486:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  486 |   int ret;
+      |       ^~~
+In file included from rempi_recorder.h:49,
+                 from rempi_re.h:37,
+                 from rempi_re.cpp:32:
+rempi_event_list.h: In instantiation of 'rempi_event_list<T>::~rempi_event_list() [with T = rempi_event*]':
+rempi_recorder.h:131:14:   required from here
+rempi_event_list.h:94:7: warning: deleting object of polymorphic class type 'rempi_event' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+   94 |       delete event;
+      |       ^~~~~~
+rempi_event_list.h:104:7: warning: deleting object of polymorphic class type 'rempi_event' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+  104 |       delete event;
+      |       ^~~~~~
+rempi_re.cpp: In member function 'virtual int rempi_re::re_request_c2f(MPI_Request)':
+rempi_re.cpp:528:10: warning: 'ret' is used uninitialized in this function [-Wuninitialized]
+  528 |   return ret;
+      |          ^~~
+In file included from rempi_io_thread.h:33,
+                 from rempi_sig_handler.cpp:30:
+rempi_encoder.h: In constructor 'rempi_encoder::rempi_encoder(int, std::string)':
+rempi_encoder.h:240:12: warning: 'rempi_encoder::tmp_fd_next_clock' will be initialized after [-Wreorder]
+  240 |     size_t tmp_fd_next_clock; /*Temporal variable for set_fd_clock_state*/
+      |            ^~~~~~~~~~~~~~~~~
+rempi_encoder.h:216:7: warning:   'int rempi_encoder::file_closed' [-Wreorder]
+  216 |   int file_closed;
+      |       ^~~~~~~~~~~
+rempi_encoder.h:244:2: warning:   when initialized here [-Wreorder]
+  244 |  rempi_encoder(int mode, string record_path)
+      |  ^~~~~~~~~~~~~
+make[4]: *** [Makefile:844: librempi_la-rempi_sig_handler.lo] Error 1
+make[3]: *** [Makefile:1010: all-recursive] Interrupt
+make[2]: *** [Makefile:374: all-recursive] Interrupt
+make[1]: *** [Makefile:427: all-recursive] Interrupt
+make: *** [Makefile:359: all] Interrupt

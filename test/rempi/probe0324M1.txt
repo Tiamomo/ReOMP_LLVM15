@@ -1,0 +1,828 @@
+REMPI::hokusai4:  0:  ========== ReMPI Configuration ==========
+REMPI::hokusai4:  0:        REMPI_MODE:  1
+REMPI::hokusai4:  0:         REMPI_DIR:  ./rempi_record
+REMPI::hokusai4:  0:      REMPI_ENCODE:  0
+REMPI::hokusai4:  0:        REMPI_GZIP:  0
+REMPI::hokusai4:  0:     REMPI_TEST_ID:  0
+REMPI::hokusai4:  0:         REMPI_MAX:  131072
+REMPI::hokusai4:  0:  ==========================================
+Start testing matching functions ... 
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  1:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  1:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  2:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  2:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  3:  S===recorder L991=========
+ (rempi_recorder.cpp:998)
+REMPI:DEBUG:hokusai4:  3:  ===recorder L991=========E
+ (rempi_recorder.cpp:1000)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  S===recorder L1003=========
+ (rempi_recorder.cpp:1010)
+REMPI:DEBUG:hokusai4:  0:  ===recorder L1003=========E
+ (rempi_recorder.cpp:1012)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+REMPI:DEBUG:hokusai4:  0:  ###cancel_request,request_type:152
+ (rempi_recorder.cpp:440)
+Done
+REMPI::hokusai4:  0:  Global validation code: 885932112
+REMPI(test):  0: Time to complete tests: 0.004516 (rempi_test_units.c:1348)

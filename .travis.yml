@@ -1,0 +1,52 @@
+language: cpp
+os: linux
+sudo: enabled
+addons:
+  apt:
+    packages:
+      - apport
+      - autoconf
+      - ccache
+      - binutils-dev
+      - gdb
+      - libmpich-dev
+      - libopenmpi-dev
+      - libtool
+      - make
+      - mpich
+      - openmpi-bin
+      - valgrind
+notifications:
+  email: false
+compiler: 
+  - clang
+  - gcc
+env:
+  global:
+    - F77=gfortran
+    - PATH=/usr/lib/ccache:$PATH
+  matrix:
+    - MPI=mpich
+# TODO: For some unknown reason, the test hangs with openmpi
+#    - MPI=openmpi
+
+cache:
+  directories:
+    - $HOME/.ccache
+
+# TODO: should we compile openmpi or mpich ourselves?
+install:
+  - export OMPI_CC=$CC
+  - export OMPI_CXX=$CXX
+  - export OMPI_FC=$F77
+  - export OMPI_F77=$F77
+  - export MPICH_CC=$CC
+  - export MPICH_CXX=$CXX
+  - export MPICH_FC=$F77
+  - export MPICH_F77=$F77
+
+script:
+  - sh travis-test/run-all.sh
+
+after_failure:
+  - cat config.log

@@ -1,0 +1,60 @@
+REMPI::hokusai4:  0:  ========== ReMPI Configuration ==========
+REMPI::hokusai4:  0:        REMPI_MODE:  0
+REMPI::hokusai4:  0:         REMPI_DIR:  ./rempi_record
+REMPI::hokusai4:  0:      REMPI_ENCODE:  0
+REMPI::hokusai4:  0:        REMPI_GZIP:  0
+REMPI::hokusai4:  0:     REMPI_TEST_ID:  0
+REMPI::hokusai4:  0:         REMPI_MAX:  131072
+REMPI::hokusai4:  0:  ==========================================
+Start testing matching functions ... 
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+Done
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI:DEBUG:hokusai4:  0:  ###record_cancel,request_type:152
+ (rempi_recorder.cpp:396)
+REMPI::hokusai4:  0:  Global validation code: 885932112
+REMPI(test):  0: Time to complete tests: 0.004587 (rempi_test_units.c:1348)

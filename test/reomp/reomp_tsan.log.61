@@ -1,0 +1,26 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=61)
+  Write of size 4 at 0x7ffeb50a5884 by thread T3:
+    #0 .omp_outlined._debug__ /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:14:13 (reomp_data_race_tsan+0xf458a)
+    #1 .omp_outlined. /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:12:1 (reomp_data_race_tsan+0xf4652)
+    #2 __kmp_invoke_microtask <null> (libomp.so.5+0xabc92) (BuildId: 6a73c48bcecdc51dd59e79319b4bc304ed464faa)
+
+  Previous write of size 4 at 0x7ffeb50a5884 by main thread:
+    #0 .omp_outlined._debug__ /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:14:13 (reomp_data_race_tsan+0xf458a)
+    #1 .omp_outlined. /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:12:1 (reomp_data_race_tsan+0xf4652)
+    #2 __kmp_invoke_microtask <null> (libomp.so.5+0xabc92) (BuildId: 6a73c48bcecdc51dd59e79319b4bc304ed464faa)
+    #3 main /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:33:16 (reomp_data_race_tsan+0xf4182)
+
+  Location is stack of main thread.
+
+  Location is global '??' at 0x7ffeb5086000 ([stack]+0x1f884)
+
+  Thread T3 (tid=70, running) created by main thread at:
+    #0 pthread_create /lustre/home/msm924/llvm15/llvm-project-15.0.0.src/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:1022:3 (reomp_data_race_tsan+0x33de3)
+    #1 <null> <null> (libomp.so.5+0x92813) (BuildId: 6a73c48bcecdc51dd59e79319b4bc304ed464faa)
+    #2 main /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:33:16 (reomp_data_race_tsan+0xf4182)
+
+SUMMARY: ThreadSanitizer: data race /lustre/home/msm924/rempipro/ReMPI/test/reomp/reomp_data_race.cpp:14:13 in .omp_outlined._debug__
+==================
+ThreadSanitizer: reported 1 warnings
+

@@ -1,0 +1,79 @@
+#!/bin/sh
+####################################################################################
+# Copyright (c) 2016, Lawrence Livermore National Security, LLC.                     
+# Produced at the Lawrence Livermore National Laboratory.                            
+#                                                                                    
+# Written by Kento Sato, kento@llnl.gov. LLNL-CODE-711357.                           
+# All rights reserved.                                                               
+#                                                                                    
+# This file is part of ReMPI. For details, see https://github.com/PRUNER/ReMPI       
+# Please also see the LICENSE file for our notice and the LGPL.                      
+#                                                                                    
+# This program is free software; you can redistribute it and/or modify it under the 
+# terms of the GNU General Public License (as published by the Free Software         
+# Foundation) version 2.1 dated February 1999.                                       
+#                                                                                    
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY    
+# WARRANTY; without even the IMPLIED WARRANTY OF MERCHANTABILITY or                  
+# FITNESS FOR A PARTICULAR PURPOSE. See the terms and conditions of the GNU          
+# General Public License for more details.                                           
+#                                                                                    
+# You should have received a copy of the GNU Lesser General Public License along     
+# with this program; if not, write to the Free Software Foundation, Inc., 59 Temple 
+# Place, Suite 330, Boston, MA 02111-1307 USA
+####################################################################################
+
+
+# This script will email the user and kill the job step.
+prog="io-watchdog: ReMPI"
+
+# check that we have a JOBID and STEPID
+if [ -z "$SLURM_JOBID" -o -z "$SLURM_STEPID" ] ; then
+  echo "$prog: ERROR: Missing \$SLURM_JOBID or \$SLURM_STEPID"
+  # TODO: would like to return 1 here, but that may break io-watchdog processing
+  exit 0
+fi
+
+# if we can just kill the job step, and not the entire job, do that
+jobtype="jobstep"
+jobid=${SLURM_JOBID}.${SLURM_STEPID}
+
+# get the current nodeset, hostname, user, and date
+nodeset=`squeue -s $jobid`
+host=`hostname`
+user=$USER
+date=`date`
+
+# Notify user via email that there is a problem
+subject="$prog: KILL: killed $jobtype# $jobid on $host"
+
+message="Date:	$date
+Job#:	$jobid
+Host:	$host
+squeue info:
+$nodeset
+
+scancel $jobid"
+
+#echo "$prog: Emailing $user that $jobtype $jobid will be killed"
+#/bin/mail -s "$subject" $user <<EOF
+#$message
+#EOF
+# give some time for the mail to get through
+#sleep 10
+#echo "$prog: Done"
+
+trap "" 12
+
+# now kill
+echo "$prog: Killing $jobtype $jobid"
+scancel -s 12 $jobid
+sleep 5
+echo "$prog: Killing $jobtype $jobid"
+scancel -s 12 $jobid
+sleep 5
+echo "$prog: Killing $jobtype $jobid"
+scancel -s 12 $jobid
+sleep 5
+
+echo "$prog: Done"

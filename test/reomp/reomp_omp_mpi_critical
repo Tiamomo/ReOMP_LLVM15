@@ -1,0 +1,73 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <omp.h>
+#include <stdint.h>
+#include <mpi.h>
+#include "/home/msm924/rempipro/ReMPI/src/reomp/mutil.h"
+#include "/home/msm924/rempipro/ReMPI/src/reomp/reomp.h"
+
+static int reomp_example_omp_critical(int nth, int rank)
+{
+  uint64_t i;
+  volatile int sum;
+  int partial_sum = 0;
+  MPI_Request request;
+
+#pragma omp parallel for private(i)
+  for (i = 0; i < 10000000L / nth; i++) {
+#pragma omp critical
+    {
+      partial_sum += sum * omp_get_thread_num() + 1;
+    }
+  }
+
+  // Send partial sum to rank 0 using non-blocking send
+  if (rank != 0) {
+    MPI_Isend(&partial_sum, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, &request);
+  } else {
+    sum += partial_sum;
+    for (int j = 1; j < nth; j++) {
+      int received_sum;
+      MPI_Recv(&received_sum, 1, MPI_INT, j, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+      sum += received_sum;
+    }
+  }
+
+  // Wait for non-blocking send to complete
+  if (rank != 0) {
+    MPI_Wait(&request, MPI_STATUS_IGNORE);
+  }
+
+  return sum;
+}
+
+int main(int argc, char **argv)
+{
+  int nth, rank, size;
+  double whole_s, whole_e, s, e;
+  whole_s = reomp_util_get_time();
+  MPI_Init(&argc, &argv);
+  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+  MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+  if (argc != 2) {
+    fprintf(stderr, "%s <# of threads>", argv[0]);
+    exit(0);
+  }
+  nth = atoi(argv[1]);
+  omp_set_num_threads(nth);
+  
+  s = MPI_Wtime();
+  int ret1 = reomp_example_omp_critical(nth, rank);
+  e = MPI_Wtime();
+  
+  if (rank == 0) {
+    fprintf(stderr, "Test: omp_critical: time = %f (ret:  %15d)\n", e - s, ret1);
+    whole_e = reomp_util_get_time();
+    fprintf(stderr, "Test: main_time = %f\n", whole_e - whole_s);
+  }
+
+  MPI_Finalize();
+  return 0;
+}
+
